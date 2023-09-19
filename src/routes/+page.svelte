@@ -4,6 +4,6 @@
 </script>
 
 <div class="flex flex-col gap-20 h-screen justify-center">
-	<QrCode qrCode="x39.com/" />
+	<QrCode qrCode="startx39.com/" />
 	<QrCode qrCode="lifewave.com/bodyrepair" />
 </div>
