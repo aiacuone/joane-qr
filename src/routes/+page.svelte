@@ -1,6 +1,9 @@
 <script lang="ts">
+	import QrCode from '$lib/components/QrCode.svelte';
 	import '../app.css';
 </script>
 
-<h1 class="bg-red-500">Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<div class="flex flex-col gap-2 h-screen justify-center">
+	<QrCode qrCode="x39.com/" />
+	<QrCode qrCode="lifewave.com/bodyrepair" />
+</div>
